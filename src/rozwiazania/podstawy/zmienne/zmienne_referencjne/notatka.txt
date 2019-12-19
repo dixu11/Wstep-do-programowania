@@ -1,0 +1,9 @@
+Typy referencyjne (obiektowe) są przechowywane na stercie - heap, natomiast typy prymitywne na stosie (stack)
+są to różnie struktury pamięci o różnym działaniu.
+
+Zmienne lokalne, te z których korzystamy otrzymają konkretną ilość pamięci na dane np. zmienne typu int otrzymuja 4 bajty
+i to decyduje o tym ile kombinacji liczb mogą zapisać.
+
+Zmienne referencyjne działają na innej zasadzie. Otrzymują 8 bajtów pamięci ale wykorzystują go wyłącznie na odnotowanie,
+gdzie znajduje się obiekt z którym są powiązane (na który wskazują). Sam obiekt, znajduje się na stercie - heap, gdzie
+java dynamicznie przeznacza na niego tyle pamięci ile potrzebuje.
